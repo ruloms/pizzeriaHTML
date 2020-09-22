@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contacto</title>
+	<meta charset="utf-8">
+
+	<meta	name="viewport"	content="width=device-width,	initial-scale=1,	shrink-to-fit=no">
+
+	<!-- CSS Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+	<!-- Enlace cdn a fonts awesome -->
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
+
+
+	<!-- JavaScript Bootstrap -->
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+	<style type="text/css">
+
+		body{
+			background-color: white;
+		}
+
+		ul{
+			margin-left: 100px;
+			margin-top: 0px;
+		}
+
+		a{
+			margin-left: 180px;
+
+		}
+    #contacto{
+      margin-top:3%;
+    }
+    #btn{
+    	background-color: #463330;
+    	color: white;
+    }
+
+    #btn:hover{
+    	transition: 1s;
+    	background-color: #fff;
+    	color: #463330;
+    }
+
+    .form-control{
+    	font-family: 'Roboto', sans-serif;
+    	margin-top: 10px;
+
+    }
+
+	#tarjeta-contacto{
+		background-color: #61A9F2;
+
+	}
+
+	#fila-titulo{
+		text-align: center;
+		width: 100%;
+		margin-top: 50px;
+	}
+
+	#fila-formulario{
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+
+	#tarjeta-contacto .row{
+		margin-top: 60px;
+		margin-left: 40px;
+	}
+
+	span{
+		margin-left: 10px;
+		color: #463330;
+	}
+
+	#text-cont{
+		font-size: 20px;
+		color: white;
+		font-weight: 600;
+	}
+		 #seccion-footer{
+ 			background-color: black;
+ 			color: white;
+ 			margin-top: 3%;
+ 			padding-top: 5%;
+ 			padding-bottom: 5%;
+ 			padding-left: 15%;
+ 			padding-right: 12%;
+ 		}
+
+ 		#foo{
+ 			color: grey;
+ 		}
+	</style>
+
+
+
+</head>
+<body>
+
+	<!-- -------MENÚ DE NAVEGACIÓN ------------------------------------------------------------------>
+
+	<div class="container-fluid"id="contacto">
+		<header class="row">
+			 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+
+			 	<!-- LOGO -->
+  				<a class="navbar-brand" href="pizzeria.html"><img src="pizza.png" width=80></a>
+
+
+  				<!-- Botón desplegable -->
+  				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="	#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    			<span class="navbar-toggler-icon"></span>
+  				</button>
+
+  				<div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    				<ul class="navbar-nav mr-auto">
+      					<li class="nav-item">
+        				<a class="nav-link" href="pizzeria.html">Inicio</a>
+      					</li>
+
+				      <li class="nav-item">
+				        <a class="nav-link" href="conocenos.html">Conocenos</a>
+				      </li>
+
+				      <li class="nav-item">
+				        <a class="nav-link" href="blog.html">Blog</a>
+				      </li>
+
+				      <li class="nav-item">
+				        <a class="nav-link" href="contacto.html">Contacto</a>
+				      </li>
+    				</ul>
+  					</div>
+				</nav>
+		</header>
+	</div>
+  <!------------- conacto------------------------------------------------------->
+  <div class="container">
+
+		<!-- Título -->
+
+		<div class="row" id="fila-titulo">
+			<div class="col">
+				<h2>Contacta con nosotros</h2>
+			</div>
+		</div>
+
+		<!-- Formulario -->
+		<div class="row" id="fila-formulario">
+
+			<div class="col-md-6">
+				<form class="form-group" action="#" method="post">
+					<label>Envíanos un mensaje</label>
+					<input type="text" class="form-control" placeholder="Nombre" required>
+
+					<input type="email" class="form-control" placeholder="Email" required>
+
+					<input type="tel" class="form-control" placeholder="Teléfono" required>
+
+					<textarea class="form-control" placeholder="Mensaje" rows="8" cols="50"required></textarea>
+
+					<button type="submit" class="form-control" id="btn">Enviar</button>
+
+				</form>
+			</div>
+
+			<div id="tarjeta-contacto" class="col-md-6">
+				<div class="row">
+					<label id="text-cont">Nuestro contacto</label>
+				</div>
+
+				<div class="row">
+					<i id="icon1" class="fas fa-map-marker-alt"><span>C/ Gran via del norte 34, 46186 Betera Valencia</span></i>
+				</div>
+
+				<div class="row">
+					<i id="icon2" class="fas fa-envelope-open"><span>artpizza@gmail.com</span></i>
+				</div>
+
+				<div class="row">
+					<i id="icon3" class="fas fa-tty"><span>123456789</span></i>
+				</div>
+
+
+
+			</div>
+
+		</div>
+
+
+
+	</div>
+
+	<!------------ footer -------------------------------------------------------->
+	<section id="seccion-footer" class="container-fluid">
+		<div class="row">
+			<div class="col-lg-4" id="foot">
+				<h1>Pizzeria ArtPizza</h1>
+				<p id="foo">Siguenos en las redes<br>
+					 sociales:@artpizza</p>
+			</div>
+			<div class="col-lg-4"id="foot">
+				<h1>Donde estamos</h1>
+				<p id="foo">C/Gran via del norte 34 <br>
+				Betera, Valencia</p>
+			</div>
+			<div class="col-lg-4" id="foot">
+				<h1>Contacto</h1>
+				<p id="foo">653400634<br>
+				artpizza@gmail.com</p>
+			</div>
+		</div>
+	</section>
+</body>
+</html>

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pizzeria ArtPizza</title>
+	<meta charset="utf-8">
+
+	<meta	name="viewport"	content="width=device-width,	initial-scale=1,	shrink-to-fit=no">
+
+	<!-- CSS Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+	<!-- Enlace cdn a fonts awesome -->
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
+
+
+	<!-- JavaScript Bootstrap -->
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+	<style type="text/css">
+
+		body{
+			background-color: white;
+		}
+
+		ul{
+			margin-left: 100px;
+			margin-top: 0px;
+		}
+
+		a{
+			margin-left: 180px;
+
+		}
+
+		#imagen-1{
+			width: 100%;
+			margin-top: 100px;
+		}
+		#imagen-principal{
+			margin-bottom: 100px;
+			width: 100%;
+		}
+		#seccion-texto{
+			background-color: #383534;
+			text-align: center;
+			height: 140px;
+			margin-top: 20px;
+		}
+
+		#texto-1{
+			color: white;
+			margin-top: 50px;
+		}
+		#seccion-texto1{
+			background-color: #383534;
+			text-align: center;
+			height: 100px;
+			margin-top: 20px;
+			margin-bottom: -90px;
+		}
+		#seccion-portfolio{
+			text-align: center;
+			margin-top: 20px;
+		}
+
+		#skate1, #skate2, #skate3{
+			margin-top: 10px;
+
+		}
+		#seccion-footer{
+			background-color: black;
+			color: white;
+			margin-top: 3%;
+			padding-top: 5%;
+			padding-bottom: 5%;
+			padding-left: 15%;
+			padding-right: 12%;
+		}
+
+		#foo{
+			color: grey;
+		}
+	</style>
+
+
+
+</head>
+<body>
+
+	<!-- -------MENÚ DE NAVEGACIÓN ------------------------------------------------------------------>
+
+	<div class="container-fluid">
+		<header class="row">
+			 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+
+			 	<!-- LOGO -->
+  				<a class="navbar-brand" href="pizzeria.html"><img src="pizza.png" width=80></a>
+
+
+  				<!-- Botón desplegable -->
+  				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="	#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    			<span class="navbar-toggler-icon"></span>
+  				</button>
+
+  				<div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    				<ul class="navbar-nav mr-auto">
+      					<li class="nav-item">
+        				<a class="nav-link" href="pizzeria.html">Inicio</a>
+      					</li>
+
+				      <li class="nav-item">
+				        <a class="nav-link" href="conocenos.html">Conocenos</a>
+				      </li>
+
+
+				      <li class="nav-item">
+				        <a class="nav-link" href="blog.html">blog</a>
+				      </li>
+
+
+				      <li class="nav-item">
+				        <a class="nav-link" href="contacto.html">Contacto</a>
+				      </li>
+    				</ul>
+  					</div>
+				</nav>
+		</header>
+	</div>
+<!------------ texto-------------------------------------------------------------->
+	<section id="seccion-texto1" class="container-fluid">
+
+		<div class="row">
+			<div class="col">
+				<h2 id="texto-1">Ven a conocer ArtPizza</h2>
+			</div>
+		</div>
+
+	</section>
+
+	<!-- ---------- SECCIÓN IMAGEN ---------------------------------------------------->
+
+	<section id="imagen-principal" class="container-fluid">
+
+		<div class="row">
+
+			<div class="col">
+				<img class="image-fluid" id="imagen-1" src="pizzero.jpg">
+			</div>
+
+
+		</div>
+<!-------------- carrusel------------------------------------------------>
+	</section>
+	<div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+
+		<!-- Indicadores -->
+
+  		<ol class="carousel-indicators">
+		    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+
+		    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+
+		    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+  		</ol>
+
+ 		<!-- Imágenes -->
+
+  		<div class="carousel-inner">
+    		<div class="carousel-item active" data-interval="3000">
+     			 <img src="pizza1.jpg" class="d-block w-100" alt="iPhone">
+
+     			 <!-- Texto de la imagen -->
+
+      			<div class="carousel-caption d-none d-md-block">
+        			<h5>Las mejores pizzas</h5>
+        			<p>Nunca has probado pizza
+							tan sabrosa</p>
+      			</div>
+    		</div>
+
+
+    		<div class="carousel-item" data-interval="3000">
+     			 <img src="bocadillo1.jpg" class="d-block w-100" alt="iPad">
+      			<div class="carousel-caption d-none d-md-block">
+       				<h5>Sabrosos bocadillos</h5>
+        			<p>Prueba tambien nustros
+							bocadillos especiales </p>
+      			</div>
+    		</div>
+
+
+    		<div class="carousel-item" data-interval="3000">
+     			<img src="kebab1.jpg" class="d-block w-100" alt="MacBook Pro">
+      			<div class="carousel-caption d-none d-md-block">
+       			 	<h5>kebabs distintos</h5>
+        			<p>Deliciosos kebabs como nunca
+								antes has probado</p>
+      			</div>
+    		</div>
+  		</div>
+
+  		<!-- Controles de desplazamiento -->
+
+  		<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+    		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    		<span class="sr-only">Anterior</span>
+  		</a>
+
+  		<a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+    		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    		<span class="sr-only">Siguiente</span>
+  		</a>
+	</div>
+</section>
+
+	<!-- -----------SECCIÓN TEXTO ----------------------------------------------------->
+
+	<section id="seccion-texto" class="container-fluid">
+
+		<div class="row">
+			<div class="col">
+				<h2 id="texto-1">Nuestras pizzas estrella, con premios internacionales.</h2>
+			</div>
+		</div>
+
+	</section>
+
+	<!-- -----------SECCIÓN PORTFOLIO ----------------------------------------------------->
+
+	<section id="seccion-portfolio" class="container-fluid">
+
+		<div class="row">
+			<div class="col-lg-6">
+				<img class="image-fluid" id="skate1" src="premio.jpeg" width="800">
+				<h2>Pizza maravila: Premio a la pizza del año</h2>
+			</div>
+			<div class="col-lg-6">
+				<img class="image-fluid" id="skate3" src="premio1.jpg" width="700">
+				<h2>Pizza sabrosa con borde relleno de queso</h2>
+			</div>
+		</div>
+
+	</section>
+	<!------------ footer -------------------------------------------------------->
+	<section id="seccion-footer" class="container-fluid">
+		<div class="row">
+			<div class="col-lg-4" id="foot">
+				<h1>Pizzeria ArtPizza</h1>
+				<p id="foo">Siguenos en las redes<br>
+					 sociales:@artpizza</p>
+			</div>
+			<div class="col-lg-4"id="foot">
+				<h1>Donde estamos</h1>
+				<p id="foo">C/Gran via del norte 34 <br>
+				Betera, Valencia</p>
+			</div>
+			<div class="col-lg-4" id="foot">
+				<h1>Contacto</h1>
+				<p id="foo">653400634<br>
+				artpizza@gmail.com</p>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
